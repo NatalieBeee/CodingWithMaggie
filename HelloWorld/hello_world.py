@@ -1,9 +1,13 @@
 print ("hello world")
-for i in range(0, 5):
-  if i <= 2:
-    print ("i is less than 3!")
-  elif i == 3:
-    print ("i is 3!")
-  else:
-    print ("i is bigger than 3!")
-    
+
+weather = input("What's the weather like today?")
+weather = weather.lower()
+
+if weather == "raining":
+  print ("bring an umbrella!")
+elif weather == "sunny":
+  print ("bring a hat!")
+elif weather == "windy":
+  print ("put on a jacket!")
+else:
+  print ("BRING AN UMBRELLA, HAT AND JACKET!!!")
